@@ -17,7 +17,7 @@
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET", "zabbixitem.php?q=" + str, true);
+        xmlhttp.open("GET", "item.php?q=" + str, true);
         xmlhttp.send();
     }
 }
